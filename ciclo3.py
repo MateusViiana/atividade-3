@@ -91,3 +91,5 @@ b_calcular.grid(row=5, column=0,  sticky=NSEW, pady=60, padx=5, columnspan=30)
 
 
 janela.mainloop()
+
+self.botao_sair = Button(self.janela.geometry, text='Sair', command=self.janela.geometry.quit)
